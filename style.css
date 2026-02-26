@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'vt323';
+  src: url('assets/fonts/VT323-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'press-start-2p';
+  src: url('assets/fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'pixel-nes';
+  src: url('assets/fonts/Pixel-NES.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'matrix';
+  src: url('assets/fonts/matrix-code.ttf') format('truetype');
+}
+
+html {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: vt323;
+    font-size: 14px;
+}
+
+#left {
+	width: 675px; 
+	
+}
+
+#right {
+	width: 350px;
+	
+}
+
+#terminal {
+	font-family: vt323;
+	font-size: 14px;
+	padding: 10px;
+	border: 2px solid white;
+	margin: 5px;
+}
+
+#achievements {
+	font-family: press-start-2p;
+	font-size: 25px;
+}
+
+#badges {
+	padding: 10px;
+	border: 2px solid white;
+	margin: 5px;
+}
+
+#matrix {
+    height: 200px;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 5px;
+    overflow: hidden;
+}
+
+#matrix-canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#links {
+	padding: 10px;
+	border: 2px solid white;
+	margin: 5px;
+	font-size: 15px;
+}
+
+#link {
+	font-family: press-start-2p;
+	font-size: 15px;
+	text-align: center;
+}
+
+#chaos {
+	padding: 10px;
+	border: 2px solid white;
+	margin: 5px;
+}
+
+#artifacts {
+	font-family: press-start-2p;
+	font-size: 15px;
+	text-align: center;
+}
+
+#chaos img {
+	display: block;
+	margin: auto;
+}
