@@ -44,11 +44,21 @@ html {
 	margin: 5px;
 	height: 350px;
 	overflow-y: auto; 
+    box-sizing: border-box;
+}
+
+#terminal pre {
+    margin: 0;
+    line-height: 1.2;
 }
 
 #fastfetch,
 #prompt {
     display: none;
+}
+
+#fastfetch table {
+    border-collapse: collapse;
 }
 
 #achievements {
