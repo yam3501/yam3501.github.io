@@ -42,6 +42,13 @@ html {
 	padding: 10px;
 	border: 2px solid white;
 	margin: 5px;
+	height: 350px;
+	overflow-y: auto; 
+}
+
+#fastfetch,
+#prompt {
+    display: none;
 }
 
 #achievements {
